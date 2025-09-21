@@ -29,12 +29,13 @@ nav a:hover {
 }
 
 #tentang img {
-  max-width: 600px;
+  max-width: 300px;
   width : 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-  border-radius: 12px; 
+  border-radius: 12px;
+  object-fit: contain; 
 }
 
 .card {
@@ -46,11 +47,11 @@ nav a:hover {
 }
 
 .card img {
-  max-width: 100%;   
-  width: 100%;       
+  max-width: 100%;          
   height: auto;      
   display: block;
-  margin: 0 auto;    
+  margin: 0 auto; 
+  border-radius: 8px;   
 }
 
 .card h2 {
@@ -132,6 +133,16 @@ nav a:hover {
 #lagu li {
   margin-bottom: 0.5rem;
   color: #222; 
+}
+
+#izna img {
+  max-width: 400px;   
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem auto;  
+  border-radius: 12px;
+  object-fit: contain;
 }
 
 .btn-primary {
