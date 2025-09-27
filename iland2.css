@@ -159,14 +159,28 @@ nav a:hover {
 }
 
 .dark-mode {
-  background-color: #121212; 
-  color: #f5f5f5;          
+  background-color: #121212;
+  color: #f5f5f5;
 }
 
 .dark-mode .card,
-.dark-mode .peserta-card {
-  background-color: #1e1e1e; 
-  border: 1px solid #333;    
+.dark-mode .peserta-card,
+.dark-mode section {
+  background-color: #1e1e1e;
+  border: 1px solid #333;
+  color: #f5f5f5;
+}
+
+.dark-mode table {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  border: 1px solid #444;
+}
+
+.dark-mode th, 
+.dark-mode td {
+  border: 1px solid #555;
+  padding: 8px;
 }
 
 .dark-mode button {
@@ -174,3 +188,4 @@ nav a:hover {
   color: #f5f5f5;
   border: 1px solid #555;
 }
+
