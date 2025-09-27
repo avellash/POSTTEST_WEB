@@ -51,3 +51,19 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   fetchAnime();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const darkBtn = document.createElement("button");
+  darkBtn.textContent = "🌙 Dark Mode";
+  darkBtn.id = "darkModeBtn";
+  document.body.prepend(darkBtn);
+
+  darkBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    if (document.body.classList.contains("dark-mode")) {
+      darkBtn.textContent = "☀️ Light Mode";
+    } else {
+      darkBtn.textContent = "🌙 Dark Mode";
+    }
+  });
+});
